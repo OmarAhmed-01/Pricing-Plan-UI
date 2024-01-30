@@ -12,15 +12,14 @@ body{
     background: linear-gradient(135deg, #00ADB5, #393E46);
 }
 .container{
+    height: 100%;
     width: 100%;
-    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .price-row{
-    width: 90%;
-    width: 1300px;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -33,6 +32,7 @@ body{
     text-align: center;
     color: 222831;
     transition: all 0.3s ease;
+    height: auto;
 }
 .price-coloumn h2{
     font-family: Helvetica,Arial,sans-serif;
@@ -59,9 +59,9 @@ body{
     list-style: none;
     text-align: left;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: 1.4;
 }
 .price-coloumn .feature img{
@@ -72,8 +72,8 @@ img{
 }
 .price-coloumn .feature p{
     color: #727272;
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
     margin-left: 30px;
     font-weight: 300;
 }
@@ -82,13 +82,13 @@ img{
     width: 100%;
     border: none;
     outline: none;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #EEEEEE;
     background: linear-gradient(#00ADB5, #222831);
     cursor: pointer;
     font-size: 20px;
     transition: all 0.3s ease;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .price-coloumn button:hover{
     transform: scale(0.95);
